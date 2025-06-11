@@ -3,6 +3,6 @@ on:
 
 jobs:
   build: 
-    runs-on: arc-runner-org # label of org runner
+    runs-on: ubuntu-20-04-16g # label of org runner
     steps: 
       - run: echo "Hello build!1"
